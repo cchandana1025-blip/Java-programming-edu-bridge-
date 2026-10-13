@@ -1,0 +1,16 @@
+public class employee {
+    int id = 101;
+    String name = "Chandana";
+    double salary = 25000;
+
+    void display() {
+        System.out.println("Employee ID: " + id);
+        System.out.println("Employee Name: " + name);
+        System.out.println("Employee Salary: " + salary);
+    }
+
+    public static void main(String[] args) {
+        employee e = new employee();
+        e.display();
+    }
+}
